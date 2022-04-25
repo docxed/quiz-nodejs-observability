@@ -4,7 +4,7 @@
 $docker-compose -f docker-compose-build.yml build
 ````
 
-### ฏำยสนั Docker
+### Deploy Docker
 ````
 $docker-compose -f docker-compose-deploy.yml up -d
 ````
