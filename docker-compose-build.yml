@@ -12,3 +12,6 @@ services:
   prometheus:
     image: 62070215-prometheus:latest
     build: ./prometheus
+  grafana:
+    image: 62070215-grafana:latest
+    build: ./grafana
