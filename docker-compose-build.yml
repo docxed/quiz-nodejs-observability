@@ -9,3 +9,6 @@ services:
   service3:
     image: service3:latest
     build: ./service3
+  prometheus:
+    image: 62070215-prometheus:latest
+    build: ./prometheus

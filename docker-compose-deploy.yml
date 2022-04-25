@@ -12,3 +12,8 @@ services:
     image: service3:latest
     ports:
       - "3002:3002"
+  prometheus:
+    image: 62070215-prometheus:latest
+    build: ./prometheus
+    ports:
+      - "9090:9090"
